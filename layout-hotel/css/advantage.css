@@ -1,0 +1,90 @@
+/*==============
+ADVANTAGE
+===============*/
+
+.advantage {
+  margin-bottom: 100px;
+}
+
+.adv-heading {
+  padding-bottom: 14px;
+  margin: 0;
+}
+
+.advantage-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.advantage-item {
+  width: 190px;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  background-position: top 40px left 45px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 40px 40px 40px 45px;
+  margin-right: 23px;
+}
+
+.adv-text {
+  padding-top: 70px;
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.advantage-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.advantage-item:first-child {
+  background-image: url(../img/Preimushestva1.svg);
+  margin-bottom: 20px;
+}
+
+.advantage-item:nth-child(2) {
+  background-image: url(../img/Preimushestva2.svg);
+  margin-bottom: 20px;
+}
+
+.advantage-item:nth-child(3) {
+  background-image: url(../img/Preimushestva3.svg);
+  margin-bottom: 20px;
+}
+
+.advantage-item:nth-child(4) {
+  background-image: url(../img/Preimushestva4.svg);
+  margin-bottom: 20px;
+}
+
+.advantage-item:nth-child(5) {
+  background-image: url(../img/Preimushestva5.svg);
+  margin-bottom: 20px;
+}
+
+.advantage-item:nth-child(6) {
+  background-image: url(../img/Preimushestva6.svg);
+  margin-bottom: 20px;
+}
+
+.advantage-item:nth-child(7) {
+  background-image: url(../img/Preimushestva7.svg);
+  margin-bottom: 20px;
+}
+
+.advantage-item:nth-child(8) {
+  background-image: url(../img/Preimushestva7.svg);
+  margin-bottom: 20px;
+}
+
+.advantage-item:nth-child(9) {
+  background-image: url(../img/Preimushestva5.svg);
+}
+
+.advantage-item:last-child {
+  background-image: url(../img/Preimushestva8.svg);
+}

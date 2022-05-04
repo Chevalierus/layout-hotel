@@ -1,0 +1,142 @@
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  background-image: url(../img/Footer_logo.png);
+  background-size: 256px 230px;
+  background-repeat: no-repeat;
+  background-position: bottom right 175px;
+}
+
+.footer-clmn:first-child {
+  width: 32%;
+  margin-left: 53px;
+  padding-right: 120px;
+}
+
+.footer-clmn:nth-child(2) {
+  display: block;
+  width: 63%;
+}
+
+.footer-clmn:last-child {
+  display: inline-block;
+  width: 5%;
+  padding-right: 52px;
+  padding-top: 52px;
+}
+
+.footer-clmn {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-text {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--background-color);
+  margin-bottom: 50px;
+}
+
+.footer-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color);
+  transition: color, 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: var(--background-color);
+}
+
+.footer-mail {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color);
+  margin: 0;
+  transition: color, 0.3s ease-in-out;
+}
+
+.footer-mail:hover {
+  color: var(--background-color);
+}
+
+.footer-link-text{
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--background-color);
+}
+
+.footer-link-list {
+  list-style-type: none;
+}
+
+.footer-link-item:nth-child(2) {
+  margin-bottom: 35px;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style-type: none;
+  margin: 0;
+}
+
+.footer-social-item {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  opacity: 0.5;
+  height: 26px;
+  width: 26px;
+  margin-bottom: 21px;
+}
+
+.footer-social-item:hover .social-item path {
+  fill: #f1f1f1;
+}
+
+.footer-social-item:first-child {
+  background-image: url(../img/Tripad.svg);
+}
+
+.footer-social-item:nth-child(2) {
+  background-image: url(../img/Twitter.svg);
+}
+
+.footer-social-item:nth-child(3) {
+  background-image: url(../img/Facebook.svg);
+}
+
+.footer-social-item:nth-child(4) {
+  background-image: url(../img/Vkontakte.svg);
+}
+
+.footer-social-item:last-child{
+  background-image: url(../img/Google+.svg);
+}
+
+.social-link {
+  float: right;
+  height: 26px;
+  width: 26px;
+  margin-bottom: 21px;
+}
+
+.footer-social-item:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.social-link:hover {
+  transform: scale(1.1 1.1);
+}

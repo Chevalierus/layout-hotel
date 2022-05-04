@@ -1,0 +1,110 @@
+/*============
+SERVICE
+==============*/
+
+.service {
+  margin-bottom: 100px;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.text-srvc {
+  padding-top: 235px;
+  padding-left: 45px;
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.service-item {
+  position: relative;
+  list-style-type: none;
+  width: 570px;
+  min-height: 325px;
+  text-align: left;
+  border-radius: 13px;
+  background-color: #ffffff;
+}
+
+.service-item:first-child {
+  background-image: url(../img/Uslugi1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  margin-bottom: 50px;
+}
+
+.service-item:nth-child(2) {
+  background-image: url(../img/Uslugi2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  margin-bottom: 50px;
+}
+
+.service-item:nth-child(3) {
+  background-image: url(../img/Uslugi3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+.service-item:last-child {
+  background-image: url(../img/Uslugi4.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+
+.service-heading {
+  position: absolute;
+  font-size: 22px;
+  line-height: 16px;
+  min-width: 90%;
+  padding-left: 42px;
+  margin-top: 200px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: var(--color);
+  transition-property: font-size, background-position;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  will-change: scroll-position;
+}
+
+.service-heading:hover {
+  background-position: right 110%;
+  font-size: 25px;
+}
+
+.service-link-1 {
+  background-image: url(../img/Frwd-yllw.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 68%;
+}
+
+.service-link-2 {
+  background-image: url(../img/Frwd-yllw.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 60%;
+}
+
+.service-link-3 {
+  background-image: url(../img/Frwd-yllw.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 81%;
+}
+
+.service-link-4  {
+  background-image: url(../img/Frwd-yllw.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 83%;
+}

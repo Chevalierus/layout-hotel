@@ -1,0 +1,117 @@
+/*=============
+LOCKIN
+=============*/
+
+.lockin-special {
+  margin-bottom: 70px;
+}
+
+.lockin {
+  width: 518px;
+}
+
+.lockin-heading {
+  margin-bottom: 33px;
+  margin-top: 0;
+}
+
+.lockin-content {
+  display: flex;
+  justify-content: space-between;
+  min-height: 600px;
+}
+
+.lockin-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 55px;
+}
+
+.lockin-btn {
+  padding: 20px 25px 20px 25px;
+  background-color: var(--color);
+  border-radius: 10px;
+  border: none;
+  border: 1px var(--color) solid;
+  transition: background-color, color;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+.lockin-btn:hover {
+  color: var(--color);
+  background-color: var(--background-color);
+}
+
+.lockin-input {
+  width: 99%;
+  min-height: 70px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: none;
+}
+
+.lockin-input::placeholder {
+  color: #a0a0a0;
+  padding-left: 20px;
+}
+
+.lockin-count {
+  color: var(--color);
+  padding-left: 20px;
+}
+
+.special {
+  width: 574px;
+}
+
+.spec-heading {
+  margin-top: 0;
+}
+
+.special-bck {
+  min-height: 540px;
+  background-image: url(../img/SpecPred1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-radius: 15px;
+}
+
+.special-lux {
+  font-size: 66px;
+  line-height: 58px;
+  color: white;
+  padding-left: 40px;
+  padding-top: 225px;
+  padding-right: 125px;
+  margin-top: 0;
+}
+
+.special-cost {
+  display: flex;
+  font-size: 35px;
+  color: #948b85;
+  padding-left: 40px;
+}
+
+.special-cost-link {
+  align-self: center;
+  min-width: 105px;
+  color: #efbf60;
+  font-size: 16px;
+  padding-left: 40px;
+  background-image: url(../img/Frwd.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100%;
+  transition: font-size .5s ease-in-out, background-position .4s ease-in-out;;
+}
+
+.special-cost-link:hover {
+  transition: font-size .5s ease-in-out, color .5s ease-in-out , background-position .5s ease-in-out;
+  font-size: 22px;
+  color: var(--background-color);
+  background-position: 1000%;
+}

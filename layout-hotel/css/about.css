@@ -1,0 +1,19 @@
+/*============
+ABOUT
+=============*/
+
+.about {
+margin-bottom: 70px;
+}
+
+.abt-heading {
+  margin-bottom: 15px;
+}
+
+.about-text {
+  width: 890px;
+  padding-left: 45px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #6f6f6f;
+}
